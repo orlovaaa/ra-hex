@@ -1,0 +1,58 @@
+input {
+  all: unset;
+}
+
+.background-container {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.form-hex {
+  width: 200px;
+  height: 105px;
+
+  font-size: 18px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+  text-align: center;
+}
+
+.input-hex {
+  font-size: 22px;
+
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  text-align: center; 
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+.input-hex:focus {
+  box-sizing: border-box;
+  border: rgb(88, 153, 238) solid 2px;
+}
+
+.convert-rgb {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center; 
+}
